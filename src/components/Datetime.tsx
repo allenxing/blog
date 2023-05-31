@@ -1,12 +1,12 @@
 export interface Props {
-  datetime: string | Date;
+  datetime: string | undefined;
   size?: "sm" | "lg";
   className?: string;
 }
 
 export default function Datetime({ datetime, size = "sm", className }: Props) {
   return (
-    <div className={`flex items-center space-x-2 opacity-80 ${className}`}>
+    <div className={`my-2 flex items-center space-x-2 opacity-80 ${className}`}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className={`${
@@ -19,7 +19,8 @@ export default function Datetime({ datetime, size = "sm", className }: Props) {
       </svg>
       <span className="sr-only">Posted on:</span>
       <span className={`${size === "sm" ? "text-sm" : "text-base"}`}>
-        <FormattedDatetime datetime={datetime} />
+        <>{String(datetime)}</>
+        {/* <FormattedDatetime datetime={datetime} /> */}
       </span>
     </div>
   );

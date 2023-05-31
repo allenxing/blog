@@ -1,6 +1,6 @@
 ---
 author: allen
-pubDatetime: 2021-12-20 19:31:00
+pubDatetime: "2021-12-20 19:31:00"
 title: 为什么你们那么有钱
 postSlug: why-you-have-money
 featured: true

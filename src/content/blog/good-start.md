@@ -1,6 +1,6 @@
 ---
 author: allen
-pubDatetime: 2023-05-09 19:17:00
+pubDatetime: "2023-05-09 19:17:00"
 title: 一个好的开始
 postSlug: good-start
 featured: true
