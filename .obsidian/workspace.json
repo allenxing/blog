@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "14bce425da8060e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "0904e78c7e9f0857",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e44f1b49c44dbbd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "899a48f0e27c61c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd159322865131c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9bbb2c999b571095",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2eb53966e7922513",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d5d5751c787d0056",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 201.5
+  },
+  "right": {
+    "id": "056f0110a400de8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c59f5a17c153ccb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ebf5a205c652657",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b34cb231be709fc1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "111b4a6a90a96f60",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b9c2f9b08ba1169e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "4e44f1b49c44dbbd",
+  "lastOpenFiles": [
+    "src/content/blog/good-start.md",
+    "2023-06-01.md",
+    "template.md",
+    "src/content/blog/test.md",
+    "src/content/blog/newtest.md",
+    "src/content/blog/why-you-have-money.md",
+    "src/content/blog/teset.md",
+    "AstroPaper-lighthouse-score.svg"
+  ]
+}
