@@ -4,7 +4,7 @@
       "id": "630287fa-421d-43ef-9dfe-3d18b8a0ccc6",
       "name": "blog",
       "type": "Template",
-      "command": false,
+      "command": true,
       "templatePath": "template.md",
       "fileNameFormat": {
         "enabled": true,
