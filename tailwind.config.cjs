@@ -58,7 +58,7 @@ module.exports = {
       transparent: "transparent",
     },
     fontFamily: {
-      mono: ["IBM Plex Mono", "monospace"],
+      mono: ["LXGW WenKai Screen","-apple-system","BlinkMacSystemFont","Roboto","Segoe UI","Helvetica","Arial","sans-serif"],
     },
     // },
   },
