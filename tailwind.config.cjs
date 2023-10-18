@@ -58,8 +58,9 @@ module.exports = {
       transparent: "transparent",
     },
     fontFamily: {
-      mono: ["LXGW WenKai Screen","-apple-system","BlinkMacSystemFont","Roboto","Segoe UI","Helvetica","Arial","sans-serif"],
+      mono: ["-apple-system","BlinkMacSystemFont","Roboto","Segoe UI","Helvetica","Arial","sans-serif"],
     },
+    //"LXGW WenKai Screen",
     // },
   },
   plugins: [require("@tailwindcss/typography")],
