@@ -1,10 +1,10 @@
 ---
 author: allen
 pubDatetime: {{DATE:YYYY-MM-DD HH:mm:ss}}
-title: {{Name}}
+title: {{VALUE:title}}
 postSlug: {{Name}}
 featured: true
-draft: true
+draft: false
 tags:
   - {{VALUE:tag}}
 ogImage: ""

@@ -15,7 +15,6 @@ const { post } = Astro.props;
 const { title, author, description, ogImage, pubDatetime, tags } = post.data;
 
 const { Content } = await post.render();
-console.error(typeof pubDatetime);
 const ogUrl = new URL(ogImage ? ogImage : `${title}.png`, Astro.url.origin)
   .href;
 ---

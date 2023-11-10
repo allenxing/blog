@@ -1,6 +1,6 @@
 ---
 author: allen
-pubDatetime: "2023-08-17 17:25:36"
+pubDatetime: 2023-08-17 17:25:36
 title: 精致生活
 postSlug: have-a-exquisite-life
 featured: true
