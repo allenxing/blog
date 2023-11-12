@@ -4,7 +4,7 @@ export const blogSchema = z
   .object({
     author: z.string().optional(),
     // pubDatetime: z.string(),
-    pubDatetime: z.date().transform(val => String(val)),
+    pubDatetime: z.date().transform(val => val.toLocaleString()),
     title: z.string(),
     postSlug: z.string().optional(),
     featured: z.boolean().optional(),
