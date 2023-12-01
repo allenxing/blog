@@ -46,21 +46,26 @@ const { activeNav } = Astro.props;
         </button>
         <ul id="menu-items" class="display-none sm:flex">
           <li>
-            <a href="/" class={activeNav === "home" ? "active" : ""}> 主页</a>
+            <a href="/" class={activeNav === "home" ? "active" : ""}>主页</a>
           </li>
           <li>
             <a href="/posts" class={activeNav === "posts" ? "active" : ""}>
               文章
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="/tags" class={activeNav === "tags" ? "active" : ""}>
               标签
             </a>
-          </li>
+          </li> -->
           <li>
             <a href="/about" class={activeNav === "about" ? "active" : ""}>
               关于
+            </a>
+          </li>
+          <li>
+            <a href="/rss.xml" class={activeNav === "about" ? "active" : ""}>
+              订阅
             </a>
           </li>
           <li>

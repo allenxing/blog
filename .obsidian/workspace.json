@@ -4,31 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "bf3b34b4f8b61a7d",
+        "id": "2da4a5e317dafe2c",
         "type": "tabs",
         "children": [
           {
-            "id": "75e916cf608ff69c",
+            "id": "301adc16abf3a58e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/how-about-35.md",
+                "file": "src/content/blog/where-is-time.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d2b68577045d4276",
+            "id": "8438ad202fa4b976",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/how-about-35.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -78,11 +74,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 262.5
   },
   "right": {
     "id": "056f0110a400de8a",
@@ -98,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/how-about-35.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/how-about-35.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/content/blog/how-about-35.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,19 +152,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d2b68577045d4276",
+  "active": "8438ad202fa4b976",
   "lastOpenFiles": [
-    "src/content/blog/have-a-exquisite-life.md",
+    "src/content/blog/where-is-time.md",
+    "src/content/blog/good-start.md",
     "src/content/blog/how-about-35.md",
+    "src/content/blog/have-a-exquisite-life.md",
+    "src/pages/about.md",
+    "AstroPaper-lighthouse-score.svg",
     "src/content/blog/test-a .md",
     "src/content/blog/test.md",
     "src/content/blog/why-you-have-money.md",
-    "src/content/blog/good-start.md",
     "template.md",
     "未命名.md",
     "2023-06-01.md",
     "src/content/blog/newtest.md",
-    "src/content/blog/teset.md",
-    "AstroPaper-lighthouse-score.svg"
+    "src/content/blog/teset.md"
   ]
 }
