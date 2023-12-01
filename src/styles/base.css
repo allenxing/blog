@@ -34,7 +34,7 @@
   }
   section,
   footer {
-    @apply mx-auto max-w-3xl px-4;
+    @apply mx-auto max-w-4xl px-4;
   }
   a {
     @apply outline-2 outline-offset-1 outline-skin-fill 
@@ -95,24 +95,24 @@
   }
 
   /* width */
-  ::-webkit-scrollbar {
+  /* ::-webkit-scrollbar {
     @apply w-3;
-  }
+  } */
 
   /* Track */
-  ::-webkit-scrollbar-track {
+  /* ::-webkit-scrollbar-track {
     @apply bg-skin-fill;
-  }
+  } */
 
   /* Handle */
-  ::-webkit-scrollbar-thumb {
+  /* ::-webkit-scrollbar-thumb {
     @apply bg-skin-card;
-  }
+  } */
 
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+  /* ::-webkit-scrollbar-thumb:hover {
     @apply bg-skin-card-muted;
-  }
+  } */
 }
 
 @layer components {
