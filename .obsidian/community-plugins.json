@@ -1,4 +1,8 @@
 [
   "quickadd",
-  "obsidian-image-auto-upload-plugin"
+  "obsidian-image-auto-upload-plugin",
+  "sample-plugin",
+  "hot-reload",
+  "Markdown nice for wechat",
+  "Markdown-nice-for-wechat"
 ]
