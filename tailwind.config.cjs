@@ -62,6 +62,18 @@ module.exports = {
     },
     //"LXGW WenKai Screen",
     // },
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: [{
+            'blockquote p:first-of-type::before': {
+              content: '',
+            }
+          }]
+        }
+      }
+    }
+
   },
   plugins: [require("@tailwindcss/typography")],
 };
