@@ -2,7 +2,7 @@
   "choices": [
     {
       "id": "630287fa-421d-43ef-9dfe-3d18b8a0ccc6",
-      "name": "blog",
+      "name": "Blog(文件名-英文)",
       "type": "Template",
       "command": true,
       "templatePath": "template.md",

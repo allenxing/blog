@@ -8,26 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f812defa15d25afc",
+            "id": "312ccac9681dbde7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/how-to-do-business.md",
+                "file": "src/content/blog/travel-in-yunnan.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
           {
-            "id": "d694d9797857cdbc",
+            "id": "d557171aed8a5d1a",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/how-to-do-business.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/how-to-do-business.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/content/blog/how-to-do-business.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -154,16 +151,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f812defa15d25afc",
+  "active": "d557171aed8a5d1a",
   "lastOpenFiles": [
-    "src/content/blog/good-start.md",
-    "src/content/blog/how-about-35.md",
-    "template.md",
-    "src/content/blog/how-to-do-business.md",
-    "src/content/blog/have-a-exquisite-life.md",
+    "src/content/blog/travel-in-yunnan.md",
     "src/content/blog/where-is-time.md",
-    "src/content/blog/如何做生意.md",
     "src/content/blog/why-you-have-money.md",
+    "src/content/blog/how-to-do-business.md",
+    "template.md",
+    "src/content/blog/travel-in-dian-xi.md",
+    "src/content/blog/你好.md",
+    "src/content/blog/good-start.md",
+    "src/content/blog/have-a-exquisite-life.md",
+    "src/content/blog/how-about-35.md",
+    "src/content/blog/如何做生意.md",
     "2023-12-27.md",
     "未命名.canvas",
     "README.md",
