@@ -123,4 +123,13 @@
   .focus-outline {
     @apply outline-2 outline-offset-1 outline-skin-fill focus-visible:no-underline focus-visible:outline-dashed;
   }
+  .ablum-cover-card {
+    @apply overflow-hidden rounded-md;
+  }
+  .ablum-cover-title {
+    @apply absolute left-0 top-0 flex h-full w-full items-center justify-center text-xl font-bold text-skin-inverted;
+  }
+  .ablum-photo {
+    @apply overflow-hidden rounded-sm;
+  }
 }

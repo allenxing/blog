@@ -16,3 +16,18 @@ export const blogSchema = z
   .strict();
 
 export type BlogFrontmatter = z.infer<typeof blogSchema>;
+
+export const albumSchema = z
+  .object({
+    author: z.string().optional(),
+    // pubDatetime: z.string(),
+    pubDatetime: z.date().transform(val => val.toLocaleString()),
+    title: z.string(),
+    postSlug: z.string().optional(),
+    draft: z.boolean().optional(),
+    photos: z.array(z.string()),
+    description: z.string(),
+  })
+  .strict();
+
+export type AblumFrontmatter = z.infer<typeof albumSchema>;

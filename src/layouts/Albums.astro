@@ -1,0 +1,52 @@
+---
+import { SITE } from "@config";
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import AlbumCoverList from "@components/AlbumCoverList";
+// import slugify from "@utils/slugify";
+import type { CollectionEntry } from "astro:content";
+import type { AblumFrontmatter } from "@content/_schemas";
+import slugify from "@utils/slugify";
+
+export interface Props {
+  albums: CollectionEntry<"album">[];
+}
+
+const { albums }: Props = Astro.props;
+const albumsCover = albums.map(({ data }: { data: AblumFrontmatter }) => {
+  return {
+    src: data.photos[0],
+    alt: data.title,
+    width: 1080,
+    height: 720,
+    href: `/albums/${slugify(data)}`,
+    title: data.title,
+  };
+});
+// const albumsData = albums.map(({ data }: {data: AblumFrontmatter}) => data);
+---
+
+<Layout title={`Albums | ${SITE.title}`}>
+  <Header activeNav="albums" />
+  <Main pageTitle="albums" pageDesc="albums">
+    <div>
+      <AlbumCoverList photos={albumsCover} client:load />
+    </div>
+  </Main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .pagination-wrapper {
+    @apply mb-8 mt-auto flex justify-center;
+  }
+  .disabled {
+    @apply pointer-events-none select-none opacity-50 hover:text-skin-base group-hover:fill-skin-base;
+  }
+  .disabled-svg {
+    @apply group-hover:!fill-skin-base;
+  }
+</style>

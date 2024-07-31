@@ -1,0 +1,7 @@
+---
+import Albums from "@layouts/Albums.astro";
+import { getCollection } from "astro:content";
+const albums = await getCollection("album");
+---
+
+<Albums albums={albums} />

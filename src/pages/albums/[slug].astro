@@ -1,0 +1,29 @@
+---
+import { CollectionEntry, getCollection } from "astro:content";
+import AlbumDetails from "@layouts/AlbumDetails.astro";
+import slugify from "@utils/slugify";
+
+export interface Props {
+  album: CollectionEntry<"album">;
+}
+
+export async function getStaticPaths() {
+  const albums = await getCollection("album", ({ data }) => !data.draft);
+
+  const postResult = albums.map(album => ({
+    params: { slug: slugify(album.data) },
+    props: { album },
+  }));
+
+  // const pagePaths = getPageNumbers(posts.length).map(pageNum => ({
+  //   params: { slug: String(pageNum) },
+  // }));
+
+  return [...postResult];
+}
+
+// const { slug } = Astro.params;
+const { album } = Astro.props;
+---
+
+<AlbumDetails album={album} />
