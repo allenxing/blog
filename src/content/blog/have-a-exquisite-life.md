@@ -6,7 +6,6 @@ postSlug: have-a-exquisite-life
 featured: true
 draft: false
 tags:
-  - 750words
   - 生活日常
 ogImage: ""
 description: 我们需要精致的生活

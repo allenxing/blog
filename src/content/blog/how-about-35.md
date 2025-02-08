@@ -6,7 +6,6 @@ postSlug: how-about-35
 featured: true
 draft: false
 tags:
-  - 750words
   - 个人成长
 ogImage: ""
 description: 三十多了，也是少年
